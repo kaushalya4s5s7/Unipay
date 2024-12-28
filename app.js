@@ -7,7 +7,7 @@ const prefix = "/api/v1";
 
 // Allow multiple origins
 const allowedOrigins = [
-  "pay-nova-hazel.vercel.app",
+  "https://pay-nova-hazel.vercel.app",
   "https://paynova.onrender.com", // Production origin
 
   "http://localhost:5173", // Development origin
