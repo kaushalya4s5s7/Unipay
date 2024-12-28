@@ -27,10 +27,7 @@ export default function App() {
         <Route path="/employer/esops" element={<ESOPPage />} />
         <Route path="/employer/settings" element={<SettingsPage />} />
         <Route path="/lending" element={<LendingPage />} />
-        <Route
-          path="/stake"
-          element={<Stake></Stake>}
-        />
+        <Route path="/stake" element={<Stake></Stake>} />
       </Routes>
     </Web3Provider>
   );

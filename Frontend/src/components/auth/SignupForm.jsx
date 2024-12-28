@@ -39,8 +39,8 @@ function SignupForm() {
       contractAddress: address,
       tokenName: data.tokenName,
       tokenSymbol: data.tokenSymbol,
-      tokenCount: data.initialSupply
-  };
+      tokenCount: data.initialSupply,
+    };
 
     try {
       const response = await axios.post(
