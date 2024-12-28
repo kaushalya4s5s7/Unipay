@@ -58,7 +58,7 @@ const employeeRouter = require("./routes/employeeRouter");
 const lendingRouter = require("./routes/lendingRouter");
 const borrowingRouter = require("./routes/borrowingRouter");
 
-app.use("/login", loginRouter);
+app.use("api/v1/login", loginRouter);
 app.use("/register", registerRouter);
 app.use(
   "/admin",
