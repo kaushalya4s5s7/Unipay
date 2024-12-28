@@ -7,6 +7,7 @@ const prefix = "/api/v1";
 
 // Allow multiple origins
 const allowedOrigins = [
+  "pay-nova-hazel.vercel.app",
   "https://payverse-azjv.onrender.com", // Production origin
   "pay-nova.vercel.app",
   "https://pay-nova-panwar-vaibhav1s-projects.vercel.app/",
