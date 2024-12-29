@@ -7,43 +7,34 @@ const prefix = "/api/v1";
 
 // Allow multiple origins
 const allowedOrigins = [
-  "https://payverse-azjv.onrender.com", // Production origin
+  "https://payverse-azjv.onrender.com",
+  "https://pay-nova-backened.vercel.app",
   "https://pay-nova-hazel.vercel.app",
-  "https://pay-nova-panwar-vaibhav1s-projects.vercel.app/",
-  "http://localhost:5173", // Development origin
+  "https://pay-nova-panwar-vaibhav1s-projects.vercel.app",
+  "http://localhost:5173",
 ];
 
 const corsOptions = {
-  origin: (origin, callback) => {
-    if (!origin || allowedOrigins.includes(origin)) {
-      // Allow requests with no origin (like mobile apps or Postman) or listed origins
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
       callback(null, true);
     } else {
-      callback(new Error("Not allowed by CORS"));
+      callback(null, true); // Temporarily allow all origins in development
     }
   },
-  methods: ["GET", "POST", "OPTIONS", "PUT", "DELETE"],
-  allowedHeaders: ["Content-Type", "Authorization"],
-  credentials: true, // Enable credentials if needed
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: [
+    "Content-Type",
+    "Authorization",
+    "X-Requested-With",
+    "Accept",
+  ],
+  preflightContinue: false,
+  optionsSuccessStatus: 204,
 };
 
 app.use(cors(corsOptions));
-app.options("*", cors(corsOptions)); // Handle preflight requests
-
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", req.headers.origin); // Dynamically allow the requesting origin
-  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS"); // Allowed methods
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Content-Type, Authorization" // Allowed headers
-  );
-  res.header("Access-Control-Allow-Credentials", "true"); // Allow credentials
-  if (req.method === "OPTIONS") {
-    // Preflight request
-    return res.status(200).end();
-  }
-  next();
-});
 
 app.use(express.json());
 

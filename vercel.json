@@ -8,15 +8,12 @@
   ],
   "routes": [
     {
+      "src": "/api/v1/(.*)",
+      "dest": "/app.js"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/app.js",
-      "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
-        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept, Authorization",
-        "Access-Control-Allow-Credentials": "true"
-      }
+      "dest": "/app.js"
     }
   ],
   "env": {
@@ -25,7 +22,7 @@
   "functions": {
     "app.js": {
       "memory": 1024,
-      "maxDuration": 60
+      "maxDuration": 30
     }
   }
 }
