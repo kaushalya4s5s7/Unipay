@@ -1,3 +1,35 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "version": 2,
+  "routes": [
+    {
+      "src": "/register",
+      "headers": {
+        "Access-Control-Allow-Origin": "https://pay-nova-hazel.vercel.app",
+        "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization",
+        "Access-Control-Allow-Credentials": "true"
+      }
+    },
+    {
+      "src": "/login",
+      "headers": {
+        "Access-Control-Allow-Origin": "https://pay-nova-hazel.vercel.app",
+        "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization",
+        "Access-Control-Allow-Credentials": "true"
+      }
+    }
+  ],
+  "builds": [
+    {
+      "src": "app.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/app.js"
+    }
+  ]
 }
