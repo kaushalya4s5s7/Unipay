@@ -45,7 +45,10 @@ function SignupForm() {
     try {
       const response = await axios.post(
         `${backendDomain}/register`,
-        registerData
+        registerData,
+        {
+          timeout: 10000,
+        }
       );
       console.log("Registration successful:", response.data);
     } catch (error) {

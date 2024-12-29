@@ -24,7 +24,9 @@ function LoginForm() {
       isEmployeer: userType === "employer",
     };
 
-    const response = await axios.post(`${backendDomain}/login`, loginData);
+    const response = await axios.post(`${backendDomain}/login`, loginData, {
+      timeout: 5000,
+    });
     if (!response.data.token) {
       alert("Wrong Input");
       return;
