@@ -24,6 +24,7 @@ function LoginForm() {
       isEmployeer: userType === "employer",
     };
 
+    console.log('Making request to:', `${backendDomain}/login`);
     const response = await axios.post(`${backendDomain}/login`, loginData, {
       timeout: 5000,
     });
