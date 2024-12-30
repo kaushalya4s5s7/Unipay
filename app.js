@@ -9,7 +9,7 @@ const prefix = "/api/v1";
 const allowedOrigins = [
   "https://paynova.onrender.com",
   "https://pay-nova-hazel.vercel.app",
-  "https://pay-nova-panwar-vaibhav1s-projects.vercel.app",
+
   "http://localhost:5173",
 ];
 
