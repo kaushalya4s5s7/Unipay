@@ -90,7 +90,7 @@ We welcome contributions to improve PayNova! To contribute:
 ## 📧 Contact
 
 For questions or feedback, feel free to reach out:
-- **Vaibhav** - [LinkedIn](https://www.linkedin.com/in/vaibhav-panwar-a1186824b/) | [Email](mailto:vaibhavpanwar0567@gmail.com)
+- **Vaibhav** - [LinkedIn](https://www.linkedin.com/in/vaibhav-panwar-a1186824b/) | [Email](mailto:vaibhavpanwar0567@gmail.com,vaibhav.panwar22b@iiitg.ac.in)
 
 ---
 
