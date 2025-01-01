@@ -76,7 +76,7 @@ Ensure you have the following installed:
    npm run dev
    ```
 
-Your local instance of Payzoll should now be running at `http://localhost:5173`.
+Your local instance of PayNova should now be running at `http://localhost:5173`.
 
 ## 🤝 Contributing
 
@@ -86,10 +86,6 @@ We welcome contributions to improve PayNova! To contribute:
 2. Create a new branch for your feature or bug fix.
 3. Commit your changes and push them to your fork.
 4. Submit a pull request.
-
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 📧 Contact
 
