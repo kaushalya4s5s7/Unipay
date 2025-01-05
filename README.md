@@ -98,3 +98,19 @@ For questions or feedback, feel free to reach out:
 If you find this project helpful, give it a ⭐ on GitHub to show your support!
 
 ---
+
+## ***TEAM INFO:***
+
+Vaibhav Panwar:
+- ETHIndia 2024 2nd winner
+- HackOnBlocks 2024 winner (Polygon next Top 7 projects)
+- Educhain Hacker House Bangalore 2nd winner.
+- Hacker House Goa Winner (Anon Aadhar & Garden Finance Tracks)
+- Btech CSE @IIIT Guwahati
+
+- Passionate Blockchain Developer & Problem Solver
+- Proven Entrepreneurial Leader: Successfully managed North-East India operations for an e-commerce startup, leading a team of 100+ and achieving 6-figure monthly sales.
+
+## **Future Vision & Plans**
+
+This project is just the beginning. I am committed to building this idea further, refining the protocol, and expanding its capabilities. Currently, I am seeking grants to accelerate development and bring this solution to market. The first alpha testing phase is planned for January, after which I aim to launch the protocol and start onboarding early users.
