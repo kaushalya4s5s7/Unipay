@@ -13,6 +13,7 @@ import LendingPage from "./pages/LendingPage";
 import { OktoProvider, BuildType } from "okto-sdk-react";
 import OTPPage from "./components/Okto/otp";
 import Stake from "./components/Coinbase/Stake";
+import PayzollCareers from "./pages/PayzollCareers";
 const OKTO_CLIENT_API_KEY = "bebe6b3d-3f40-4b51-8315-d74db21b0acb";
 
 export default function App() {
@@ -35,11 +36,11 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        {/* <Route path="/" element={<LandingPage />} /> */}
+        <Route path="/" element={<PayzollCareers />} />
         {/* Wrap employer-specific routes in Web3Provider */}
-        <Route path="/*" element={<EmployerRoutes />} />
+        {/* <Route path="/*" element={<EmployerRoutes />} /> */}
       </Routes>
     </Router>
   );
 }
-
