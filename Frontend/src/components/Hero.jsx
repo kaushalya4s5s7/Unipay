@@ -63,7 +63,7 @@ export default function Hero() {
             <div className="relative animate-float">
               {/* Custom Wallet Image */}
               <img
-                src="/unipay2real.png" // Make sure this is the correct path
+                src="./unipay2real.png" // Make sure this is the correct path
                 alt="Custom Wallet"
                 className="w-full h-full object-contain"
               />
