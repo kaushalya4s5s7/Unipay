@@ -8,7 +8,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Wallet2 className="h-8 w-8 text-indigo-400" />
+            <img
+              src="./images/unipay2real.png" // Make sure this is the correct path
+              alt="Custom Wallet"
+              className="w-10 h-10 object-contain"
+            />
             <span className="ml-2 text-xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
               Unipay
             </span>
