@@ -94,6 +94,12 @@ If you find this project helpful, give it a ⭐ on GitHub to show your support!
 
 ---
 
+### Team
+Vaibhav Panwar - Project Lead
+Kaushal Chaudhari - Lead Developer
+Ryuk ( Abhinav ) - Web3 Developer.
+---
+
 ## **Future Vision & Plans**
 
 This project is just the beginning. I am committed to building this idea further, refining the protocol, and expanding its capabilities. Currently, I am seeking grants to accelerate development and bring this solution to market. The first alpha testing phase is planned for January, after which I aim to launch the protocol and start onboarding early users.
