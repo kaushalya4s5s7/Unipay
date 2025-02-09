@@ -17,7 +17,7 @@ Welcome to **Unipay**, a cutting-edge decentralized payroll system designed to r
 
 ## 🌐 Deployed Website
 
-Explore the live project: [PayNova on Vercel](https://pay-nova-hazel.vercel.app)
+Explore the live project: [Unipay on Vercel](uni-pay-hazel.vercel.app)
 
 ## 🛠️ Getting Started
 
@@ -34,8 +34,8 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kaushalya4s5s7/PayNova.git
-   cd PayNova
+   git clone https://github.com/kaushalya4s5s7/Unipay.git
+   cd Unipay
    ```
 
 2. Install root dependencies:
