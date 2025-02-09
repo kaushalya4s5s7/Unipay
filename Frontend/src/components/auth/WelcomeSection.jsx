@@ -64,7 +64,11 @@ function WelcomeSection({ isLogin }) {
                 <Blocks className="absolute right-0 top-1/2 -translate-y-1/2 w-8 h-8 text-purple-400" />
               </motion.div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <Wallet2 className="w-16 h-16 text-white" />
+                <img
+                  src="./images/unipay2real.png" // Make sure this is the correct path
+                  alt="Custom Wallet"
+                  className="w-16 h-16 object-contain"
+                />
               </div>
             </div>
           </div>
