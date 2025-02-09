@@ -87,11 +87,6 @@ We welcome contributions to improve PayNova! To contribute:
 3. Commit your changes and push them to your fork.
 4. Submit a pull request.
 
-## 📧 Contact
-
-For questions or feedback, feel free to reach out:
-- **Vaibhav** - [LinkedIn](https://www.linkedin.com/in/vaibhav-panwar-a1186824b/) | [Email](mailto:vaibhavpanwar0567@gmail.com,vaibhav.panwar22b@iiitg.ac.in)
-
 ---
 
 ### 🌟 Star the Repository
