@@ -1,6 +1,6 @@
 # Unipay
 
-Welcome to **Unipay**, a cutting-edge decentralized payroll system designed to revolutionize the way businesses handle employee payouts. With PayNova, you can ensure timely, secure, and efficient payments with minimal human intervention, leveraging the power of blockchain technology and AI.
+Welcome to **Unipay**, a cutting-edge decentralized payroll system designed to revolutionize the way businesses handle employee payouts. With Unipay, you can ensure timely, secure, and efficient payments with minimal human intervention, leveraging the power of blockchain technology and AI.
 
 ## 🚀 Features
 
