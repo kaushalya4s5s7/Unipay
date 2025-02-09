@@ -79,7 +79,7 @@ function WelcomeSection({ isLogin }) {
           <h1 className="text-4xl font-bold">
             {isLogin ? "Welcome Back to " : "Register Your Company with "}
             <span className="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-              PayNova
+              Unipay
             </span>
           </h1>
 

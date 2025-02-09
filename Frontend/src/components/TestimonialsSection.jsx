@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "PayNova has made payroll seamless and secure for our global team. It's the future of workforce management!",
+      "Unipay has made payroll seamless and secure for our global team. It's the future of workforce management!",
     author: "Sarah Chen",
     position: "CEO, TechForward",
     image:

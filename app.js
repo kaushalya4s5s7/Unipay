@@ -7,7 +7,7 @@ const prefix = "/api/v1";
 
 // Allow multiple origins
 const allowedOrigins = [
-  "https://paynova.onrender.com",
+  "https://Unipay.onrender.com",
   "https://pay-nova-hazel.vercel.app",
 
   "http://localhost:5173",

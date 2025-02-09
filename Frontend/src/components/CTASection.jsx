@@ -84,7 +84,7 @@ const CTASection = () => {
               </h2>
               <p className="text-xl text-gray-400 mb-8">
                 Join thousands of forward-thinking businesses that have already
-                transformed their payroll with PayNova.
+                transformed their payroll with Unipay.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">

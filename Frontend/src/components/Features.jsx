@@ -90,7 +90,7 @@ export default function Features() {
           <h2 className="text-4xl font-bold text-white mb-4">
             Why Choose{" "}
             <span className="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-              PayNova
+              Unipay
             </span>
             ?
           </h2>

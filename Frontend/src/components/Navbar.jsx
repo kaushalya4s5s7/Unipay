@@ -10,7 +10,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Wallet2 className="h-8 w-8 text-indigo-400" />
             <span className="ml-2 text-xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-              PayNova
+              Unipay
             </span>
           </div>
 

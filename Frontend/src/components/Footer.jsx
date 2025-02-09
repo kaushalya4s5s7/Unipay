@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center">
               <Wallet2 className="h-8 w-8 text-indigo-500" />
-              <span className="ml-2 text-xl font-bold text-white">PayNova</span>
+              <span className="ml-2 text-xl font-bold text-white">Unipay</span>
             </div>
             <p className="text-gray-400">
               Next-generation crypto payroll platform for the modern workforce
@@ -116,7 +116,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} PayNova. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Unipay. All rights reserved.</p>
         </div>
       </div>
     </footer>

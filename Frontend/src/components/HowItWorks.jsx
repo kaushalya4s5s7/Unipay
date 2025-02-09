@@ -38,7 +38,7 @@ export default function HowItWorks() {
             A Smarter Way to Pay Your Team
           </h2>
           <p className="text-xl text-gray-400">
-            Get started with PayNova in four simple steps
+            Get started with Unipay in four simple steps
           </p>
         </div>
 
