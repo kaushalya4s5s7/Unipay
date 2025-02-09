@@ -21,7 +21,7 @@ Explore the live project: [Unipay on Vercel](uni-pay-hazel.vercel.app)
 
 ## 🛠️ Getting Started
 
-Follow these steps to run PayNova on your local machine:
+Follow these steps to run Unipay on your local machine:
 
 ### Prerequisites
 
