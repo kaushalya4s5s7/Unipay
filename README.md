@@ -76,11 +76,11 @@ Ensure you have the following installed:
    npm run dev
    ```
 
-Your local instance of PayNova should now be running at `http://localhost:5173`.
+Your local instance of Unipay should now be running at `http://localhost:5173`.
 
 ## 🤝 Contributing
 
-We welcome contributions to improve PayNova! To contribute:
+We welcome contributions to improve  Unipay! To contribute:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
